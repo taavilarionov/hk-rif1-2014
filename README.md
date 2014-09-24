@@ -11,7 +11,9 @@ Vali üks leht maailmast (võimalusel enda disainitud), tee screenshot ja
 - RWD - Responsive web design
 - Vähemalt üks JQuery element
 - Kogu eelnev tuleb ühendada Wordpressiga
-Eksm toimub elevator pitch (http://en.wikipedia.org/wiki/Elevator_pitch) vormis, kus igaühe eelarveks on viis lauset, miks just tema pakutud lahendus on parim.
+
+Eksam toimub elevator pitch (http://en.wikipedia.org/wiki/Elevator_pitch) vormis, kus igaühe eelarveks on viis lauset, miks just tema pakutud lahendus on parim.
+
 Valitud leht peab olema heaks kiidetud õppejõu poolt 14. novembriks, ettekande kuupäev veel täpsustab.
 Küsimuste ja tempo täpsustumisel täiendan postitust.
 
