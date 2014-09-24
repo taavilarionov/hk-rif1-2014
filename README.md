@@ -3,6 +3,7 @@ Tere,
 Tegemist on loengumaterjalide kogumiga Haapsalu Kolledzi RIF14 2014(I sem) I kursuse tarbeks.
 
 Eksam
+
 Vali üks leht maailmast (võimalusel enda disainitud), tee screenshot ja 
 - Kirjuta HTML/CSS kood nullist (lengu näidete kasutamine lubatud)
 - Leht peab sisaldama vähemalt HEADER(logo + menüü), CONTENT, FOOTER, SIDEBAR elemente
