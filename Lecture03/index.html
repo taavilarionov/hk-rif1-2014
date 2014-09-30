@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My first HTML page</title>
+	<link rel="stylesheet" href="style.css" media="all">
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="frame">
+		<header class="clear">
+			<a name="top"></a>
+			<ul id="lang">
+				<li><a href="#">Est</a></li>
+				<li><a href="#">Eng</a></li>
+				<li class="active"><a href="#">Rus</a></li>
+				<li><a href="#">Fin</a></li>
+			</ul>
+			<ul id="menu">
+				<li><a href="#">Avaleht</a></li>
+				<li><a href="#">Firmast</a></li>
+				<li><a href="#">Tooted</a></li>
+				<li class="active"><a href="#">Teenused</a></li>
+				<li><a href="#">Tehtud tööd</a></li>
+				<li><a href="#">Kontakt</a></li>                                   
+			</ul>
+			<a href="#" id="logo">
+				<img src=logo.png alt="Site logo" title="Site logo title">
+				<span>	This is logo area</span>
+			</a>
+		</header>
+		<article>
+			<h1>Lorem Ipsum is simply dummy text of the Lorem Ipsum is simply dummy text of the</h1>
+			<h2>Heading 2</h2>
+			<h3>Heading 3</h3>
+			<h4>Heading 4</h4>
+			<h5>Heading 5</h5>
+			<h6>Heading 6</h6>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.to make a type specimen book.</p>
+			<p>Lorem ipsum dolor sit amet, <i>consectetur</i> <b>adipisicing</b> elit. Vero, ratione maiores voluptatibus.</p>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
+			<p>Lorem ipsum dolor sit amet, consectetur <a href="http://www.bind.ee" target="_blank">Bind</a> elit. Vero, ratione maiores voluptatibus.</p>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			<ul>
+				<li>Element</li>
+				<li>Element</li>
+				<li>Element</li>
+			</ul>
+			<ol>
+				<li>Element</li>
+				<li>Element</li>
+				<li>Element</li>
+			</ol>
+			<table>
+				<tr>
+					<th>Pealkiri</th>
+					<th>Pealkiri</th>
+					<th>Pealkiri</th>
+				</tr>
+				<tr>
+					<td>Sisutekst</td>
+					<td>Sisutekst</td>
+					<td>Sisutekst</td>
+				</tr>
+				<tr>
+					<td>Sisutekst</td>
+					<td>Sisutekst</td>
+					<td>Sisutekst</td>
+				</tr>
+				<tr>
+					<td>Sisutekst</td>
+					<td>Sisutekst</td>
+					<td>Sisutekst</td>
+				</tr>
+				<tr>
+					<td>Sisutekst</td>
+					<td>Sisutekst</td>
+					<td>Sisutekst</td>
+				</tr>
+			</table>
+			<p><p><a href="mailto:taavi@bind.ee?subject=I'm just writing to you a letter&body=I hope you burn in hell">Write me a letter</a></p></p>
+			<h2>Youtube sample</h2>
+			<iframe width="485" height="273" src="http://www.youtube.com/embed/7WMPqz6hrW0?list=PLIhXxe-mhtR-QWpuqWNmkwKThm20dBNIQ" frameborder="0" allowfullscreen></iframe>
+			<h3>Gogle Maps sample</h3>
+			<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253.5920700606146!2d24.790022334990578!3d59.43746813917195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46929351c63f12c9%3A0xebd11cd31cd12701!2sKadrioru+park!5e0!3m2!1set!2see!4v1411723388071" width="485" height="300" frameborder="0" style="border:0"></iframe></p>
+			<h4>Rehvivahetuse bronerrimisvormi näide</h4>
+			<form>
+				<table>
+					<tr>
+						<td>Eesnimi</td>
+						<td>
+							<input type="text" placeholder="Nimi">
+						</td>
+					</tr>
+					<tr>
+						<td>Perekonnanimi</td>
+						<td>
+							<input type="text">
+						</td>
+					</tr>
+					<tr>
+						<td>Telefon</td>
+						<td>
+							<input type="tel:45852">
+						</td>
+					</tr>
+					<tr>
+						<td>Email</td>
+						<td>
+							<input type="email">
+						</td>
+					</tr>
+					<tr>
+						<td>Kuupäev</td>
+						<td>
+							<input type="date">
+						</td>
+					</tr>
+					<tr>
+						<td>Auto tüüp</td>
+						<td>
+							<label>	<input type="radio" name="cartype" name="car"> Sõiduato</label><br>
+							<label>	<input type="radio" name="cartype" name="bigcar"> Rekka</label><br>
+							<label>	<input type="radio" name="cartype" name="suv"> Maastur</label><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Rehvi tüüp
+						</td>
+						<td>
+							<label>	<input type="radio" name="type" name="winter"> Talverehvid</label><br>
+							<label>	<input type="radio" name="type" name="summer"> Suverehvid</label><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Rehvi mõõdud (tollides)
+						</td>
+						<td>
+							<select>
+								<option>15</option>
+								<option>16</option>
+								<option>17</option>
+								<option>18</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Lisainfo</td>
+						<td>
+							<textarea cols="100" rows="5"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<label>	<input type="checkbox"> Nõustun kasutjatingimustega</label>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="button" value="Saada"></td>
+					</tr>
+				</table>
+			</form>
+			<p><a href="#top">Back to top</a></p>
+		</article>
+	</div>
+	<footer>
+		<div class="footer-content">
+			Metsa 88, Tallinn    40088 Harju maakond     tel:+372  555 5555     faks:+372  555 5555
+		</div>
+	</footer>
+</body>
+</html>

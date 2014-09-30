@@ -1,0 +1,155 @@
+/*Helper classes*/
+.clear {
+	overflow: hidden;
+	clear: both;
+}
+A * {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+body, html {
+	/*background: #eee;*/
+	border-top: 8px #684b3e solid;
+	padding: 0;
+	margin: 0;
+	font-size: 13px;
+}
+/*Page frame*/
+#frame {
+	width: 970px;
+	margin: auto;
+}
+/*Page header*/
+header {
+	border-bottom: 4px #dbd6d4 solid;
+	padding: 20px 0 20px 0;
+}
+header #logo {
+	/*float: left;*/
+}
+header #menu {
+	font-size: 17px;
+	margin: 30px 0 0 120px;
+	float: right;
+	clear: right; 
+}
+header #menu li {
+	font-size: 17px;
+	float: left;
+	padding: 0 20px;
+	border-left: 1px solid #dbd6d4;
+}
+header #menu li:last-child {
+	border-right: 1px solid #dbd6d4;
+}
+header #menu li a {
+	color: #785646;
+	text-decoration: none;
+}
+header #menu li a:hover,
+header #menu li.active a {
+	color: #c4262e;
+}
+/*Language select*/
+#lang {
+	float: right;
+	clear: right;
+	margin: -20px 0 0 0;
+	background: #331c11;
+	padding: 6px;
+}
+#lang * {
+	float: left;
+}
+#lang li {
+	margin: 0 10px;
+}
+#lang a {
+	color: #9f8579;
+	text-decoration: none;
+}
+#lang li a:hover,
+#lang li.active a {
+	color: #fff;
+}
+/* Page content styles */
+article {
+	padding: 15px;
+}
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+	margin: 10px 0 0 0;
+}
+article h1 {
+	font-size: 50px;
+	color: #4c3327;
+	border-bottom: 1px #dbd6d4 solid;
+	padding: 0 0 5px 0;
+}
+article h2 {
+	font-size: 43px;
+	color: #d41217;
+}
+article h3 {
+	font-size: 36px;
+	color: #4c3327;
+}
+article h4 {
+	font-size: 31px;
+	color: #d41217;
+}
+article h5 {
+	font-size: 26px;
+	color: #4c3327;
+}
+article h6 {
+	font-size: 21px;
+	color: #d41217;
+}
+article ul {
+	list-style-type: square;
+	padding: 0 0 0 40px;
+}
+article a {
+	color: #d41217;
+}
+article a:hover {
+	color: #ef5256;
+	text-decoration: none;
+}
+article table {
+	width: 100%;
+	text-align: left;
+}
+article table th,
+article table td
+{
+	padding: 10px;
+}
+article table th
+{
+	background: #4c3327;
+	color: #fff;
+}
+article table tr:nth-child(2n+1) td {
+    background: #f4f3f2;
+}
+/*Footer*/
+footer{
+	background: #331c11;
+	padding: 13px 0;
+	font-size: 11px;
+	color: #7e6b61;
+}
+.footer-content {
+	width: 970px;
+	margin: auto;
+}
