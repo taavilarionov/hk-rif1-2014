@@ -5,17 +5,37 @@
 	<title>My first HTML page</title>
 	<link rel="stylesheet" href="style.css" media="all">
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+		  $('.menu-trigger').click(function(){
+		    $('#menu').slideToggle('fast');
+		    $('.menu-trigger').toggleClass("active");
+		  });
+		});
+	</script>
 </head>
 <body>
 	<div id="frame">
 		<header class="clear">
 			<a name="top"></a>
+			<span class="menu-trigger mobile">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+			<!--
 			<ul id="lang">
 				<li><a href="#">Est</a></li>
 				<li><a href="#">Eng</a></li>
 				<li class="active"><a href="#">Rus</a></li>
 				<li><a href="#">Fin</a></li>
-			</ul>
+			</ul> 
+			 -->
+			<a href="#" id="logo" class="mobile">
+				<img src=logo.png alt="Site logo" title="Site logo title">
+				<span>	This is logo area</span>
+			</a>
 			<ul id="menu">
 				<li><a href="#">Avaleht</a></li>
 				<li><a href="#">Firmast</a></li>
@@ -24,7 +44,7 @@
 				<li><a href="#">Tehtud tööd</a></li>
 				<li><a href="#">Kontakt</a></li>                                   
 			</ul>
-			<a href="#" id="logo">
+			<a href="#" id="logo" class="desktop">
 				<img src=logo.png alt="Site logo" title="Site logo title">
 				<span>	This is logo area</span>
 			</a>
@@ -83,7 +103,7 @@
 			<iframe width="485" height="273" src="http://www.youtube.com/embed/7WMPqz6hrW0?list=PLIhXxe-mhtR-QWpuqWNmkwKThm20dBNIQ" frameborder="0" allowfullscreen></iframe>
 			<h3>Gogle Maps sample</h3>
 			<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253.5920700606146!2d24.790022334990578!3d59.43746813917195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46929351c63f12c9%3A0xebd11cd31cd12701!2sKadrioru+park!5e0!3m2!1set!2see!4v1411723388071" width="485" height="300" frameborder="0" style="border:0"></iframe></p>
-			<h4>Rehvivahetuse bronerrimisvormi näide</h4>
+			<h4>Rehvivahetuse broneerimisvormi näide</h4>
 			<form>
 				<table>
 					<tr>
@@ -101,7 +121,7 @@
 					<tr>
 						<td>Telefon</td>
 						<td>
-							<input type="number">
+							<input type="tel:45852">
 						</td>
 					</tr>
 					<tr>
@@ -149,13 +169,13 @@
 					<tr>
 						<td>Lisainfo</td>
 						<td>
-							<textarea cols="100" rows="5"></textarea>
+							<textarea cols="25" rows="5"></textarea>
 						</td>
 					</tr>
 					<tr>
 						<td></td>
 						<td>
-							<label>	<input type="checkbox"> Nõustun kasutjatingimustega</label>
+							<label>	<input type="checkbox"> Nõustun kasutajatingimustega</label>
 						</td>
 					</tr>
 					<tr>
@@ -169,7 +189,7 @@
 	</div>
 	<footer>
 		<div class="footer-content">
-			Metsa 88, Tallinn    40088 Harju maakond     tel:+372  555 5555     faks:+372  555 5555
+			Metsasalu 888, Tallinn    11122 Harju maakond     tel:+372  555 5555     faks:+372  555 5555
 		</div>
 	</footer>
 </body>
